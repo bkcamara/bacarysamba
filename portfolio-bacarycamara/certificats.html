@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Certificats – Bacary Camara</title>
+
+  <meta name="description"
+        content="Découvrez les certificats et formations de Bacary Camara : OpenClassrooms, Cisco, Windows Server, marketing numérique et développement web.">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- ===== En-tête ===== -->
+  <header>
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Bacary Camara</a>
+
+      <nav class="main-nav">
+        <a href="index.html">Accueil</a>
+        <a href="competences.html">Compétences</a>
+        <a href="certificats.html" class="active">Certificats</a>
+        <a href="projet.html">Projets</a>
+        <a href="cv.html">CV en ligne</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Ouvrir le menu de navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- ===== Contenu principal ===== -->
+  <main>
+    <section class="container certificates fade-in">
+      <h1>🎓 Mes certificats</h1>
+      <p class="lead">
+        Voici quelques-uns de mes certificats et attestations de formation
+        obtenus dans le domaine de l’informatique et du développement.
+      </p>
+
+      <div class="certificates-grid">
+
+        <!-- Certificat 1 -->
+        <div class="certificate-item">
+          <img src="certificat.png" loading="lazy" alt="Certificat Algorithmes OpenClassrooms" />
+          <div class="info">
+            <h3>Découvrez le fonctionnement des algorithmes</h3>
+            <p>
+              <i class="fa-solid fa-graduation-cap"></i>
+              Certificat — OpenClassrooms
+            </p>
+            <a href="./Decouvrezlefonctionnementdesalgorithmes.pdf" download>
+              📄 Télécharger le certificat (PDF)
+            </a>
+          </div>
+        </div>
+
+        <!-- Certificat 2 -->
+        <div class="certificate-item">
+          <img src="dc.png" loading="lazy" alt="Attestation OIF Développement Web" />
+          <div class="info">
+            <h3>Organisation Internationale de la Francophonie (OIF)</h3>
+            <p>
+              <i class="fa-solid fa-server"></i>
+              Attestation de formation – Développement Web (Niveau débutant)
+            </p>
+            <a href="certificats/view.pdf" download>
+              📄 Télécharger le certificat (PDF)
+            </a>
+          </div>
+        </div>
+
+        <!-- Certificat 3 -->
+        <div class="certificate-item">
+          <img src="certificats/marketing.png" loading="lazy" alt="Certificat Marketing Numérique Google" />
+          <div class="info">
+            <h3>Google Ateliers Numériques</h3>
+            <p>
+              <i class="fa-solid fa-shield-halved"></i>
+              Certificat – Fondamentaux du marketing numérique
+            </p>
+            <a href="certificats/marketing.pdf" download>
+              📄 Télécharger le certificat (PDF)
+            </a>  
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Téléchargement global -->
+      <div class="certificates-download">
+        <a href="certificats/certificats.zip" download>
+          📦 Télécharger tous les certificats (ZIP)
+        </a>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- ===== Pied de page ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Bacary Camara — Informaticien & Développeur</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://wa.me/22246151626" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bouton retour en haut -->
+  <button class="back-to-top" id="backToTop" title="Remonter en haut">⬆</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

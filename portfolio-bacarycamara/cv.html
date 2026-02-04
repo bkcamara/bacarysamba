@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CV — Bacary Camara</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="cv.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+<header>
+  <div class="container header-inner">
+    <a class="logo" href="index.html">Bacary Camara</a>
+    <nav class="main-nav">
+      <a href="index.html">Accueil</a>
+      <a href="competences.html">Compétences</a>
+      <a href="certificats.html">Certificats</a>
+      <a href="projet.html">Projets</a>
+      <a href="about.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="cv.html" class="active">CV en ligne</a>
+    </nav>
+    <button id="navToggle2" class="nav-toggle">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="container cv-section fade-in">
+
+    <!-- HEADER CV -->
+    <div class="cv-header">
+      <img src="1.jpeg" class="cv-photo" alt="Photo Bacary Camara">
+      <div>
+        <h1>Bacary Camara</h1>
+        <p class="cv-role">Administrateur Réseaux & Systèmes | Développeur Web</p>
+        <p class="cv-desc">
+          Passionné par les infrastructures informatiques, la cybersécurité et le développement de solutions professionnelles.
+        </p>
+
+        <div class="cv-contact-mini">
+          <p><i class="fa-solid fa-envelope"></i> beranoicamara@gmail.com</p>
+          <p><i class="fa-brands fa-whatsapp"></i> 46 15 16 26</p>
+          <p><i class="fa-solid fa-location-dot"></i> Nouakchott, Mauritanie</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPETENCES -->
+    <h2 class="cv-title">🔧 Compétences techniques</h2>
+    <div class="cv-grid">
+      <div class="cv-card"><h3>Réseaux</h3><p>Cisco, VLAN, routage, VPN, Packet Tracer</p></div>
+      <div class="cv-card"><h3>Systèmes</h3><p>Linux, Windows Server, AD, DNS, DHCP</p></div>
+      <div class="cv-card"><h3>Développement</h3><p>PHP, MySQL, HTML, CSS, JS</p></div>
+      <div class="cv-card"><h3>Programmation</h3><p>C, C++, Java</p></div>
+      <div class="cv-card"><h3>Bases de données</h3><p>MySQL, SQL, sécurité des données</p></div>
+      <div class="cv-card"><h3>Virtualisation</h3><p>VMware, VirtualBox</p></div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <h2 class="cv-title">💼 Expérience</h2>
+    <div class="cv-timeline">
+      <div class="cv-timeline-item">
+        <h3>Technicien informatique — Réseaux & Systèmes</h3>
+        <span>2023 - 2024</span>
+        <p>Installation, maintenance, dépannage, configuration réseau, gestion des utilisateurs.</p>
+      </div>
+
+      <div class="cv-timeline-item">
+        <h3>Projets personnels et académiques</h3>
+        <span>2019 - 2024</span>
+        <p>Développement d’applications de gestion, configuration réseaux, déploiements serveurs, sécurité.</p>
+      </div>
+    </div>
+
+    <!-- FORMATION -->
+    <h2 class="cv-title">🎓 Formation</h2>
+    <div class="cv-list">
+      <p><i class="fa-solid fa-graduation-cap"></i> Licence en Informatique — Réseaux & Systèmes</p>
+      <p><i class="fa-solid fa-school"></i> Institut supérieur d’informatique</p>
+    </div>
+
+    <!-- CERTIFICATIONS -->
+    <h2 class="cv-title">📘 Certifications</h2>
+    <div class="cv-list">
+      <p><i class="fa-solid fa-certificate"></i> OpenClassrooms — Algorithmes</p>
+      <p><i class="fa-solid fa-certificate"></i> Administration systèmes (Linux / Windows)</p>
+    </div>
+
+    <!-- CONTACT -->
+    <h2 class="cv-title">📞 Contact</h2>
+    <div class="cv-contact-final">
+      <p><i class="fa-solid fa-envelope"></i> beranoicamara@gmail.com</p>
+      <p><i class="fa-brands fa-whatsapp"></i> +222 46 15 16 26</p>
+      <p><i class="fa-solid fa-globe"></i> Portfolio :Camara Bacary</p>
+    </div>
+
+    <div class="cv-buttons">
+      <a href="cv.PDF" class="btn" download>📄 Télécharger le CV PDF</a>
+      <a href="contact.html" class="btn btn-outline">Me contacter</a>
+    </div>
+
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year2"></span> Bacary Camara — CV</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
